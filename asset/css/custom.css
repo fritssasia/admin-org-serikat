@@ -1,0 +1,36 @@
+/* == Primary Navbar : Start == */
+.navbar-header {
+    margin: 0 auto !important;
+    display: table;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .navbar-header {
+        margin: auto 0 !important;
+        display: table;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/* == Primary Navbar : Start == */
+
+/* == Bottom Menu : Start == */
+#bottom-menu .nav-link {
+    display: flex;
+    height: 45px;
+    width: 45px;
+    justify-content: center;
+    align-items: center;
+}
+
+#bottom-menu .nav-link.active {
+    background-color: red;
+    border-radius: 100px;
+}
+/* == Bottom Menu : End == */
